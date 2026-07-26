@@ -22,6 +22,7 @@ print(name[-2])
 print(name[-3])
 print(name[-4])  # name[-4 + 6] = name[2]
 print(name[-5])
+print(name[-6])
 ```
 
 ### Output
@@ -32,6 +33,7 @@ a
 y
 i
 r
+P
 ```
 
 ### Note
@@ -52,12 +54,13 @@ Negative:   -6  -5  -4  -3  -2  -1
 #### Explanation
 
 | Expression | Character |
-|------------|-----------|
-| `name[-1]` | `m` |
-| `name[-2]` | `a` |
-| `name[-3]` | `y` |
-| `name[-4]` | `i` |
-| `name[-5]` | `r` |
+| ---------- | --------- |
+| `name[-1]` | `m`       |
+| `name[-2]` | `a`       |
+| `name[-3]` | `y`       |
+| `name[-4]` | `i`       |
+| `name[-5]` | `r`       |
+| `name[-6]` | `P`       |
 
 **Note:** Negative index `-n` is equivalent to `len(name) - n`.
 

@@ -5,7 +5,7 @@
 a = 34
 print(type(a)) #int
 
-c = string(b)
+c = string(a)
 print(type(c)) #string
 ```
 
@@ -15,7 +15,7 @@ print(type(c)) #string
 a = "Priyam"
 print(type(a)) #string
 
-c = string(b)
+c = string(a)
 print(type(c)) #int
 ```
 
@@ -30,14 +30,14 @@ print(pi_int) # Output: 3
 print(type(pi_int)) # int
 ```
 
-### Convert  Integer to Float
+### Convert Integer to Float
 
 ``` python
 pi = 3
 
 pi_float = float(pi)
 
-print(pi_int) # Output: 3.0
-print(type(pi_int)) # float
+print(pi_float) # Output: 3.0
+print(type(pi_float)) # float
 ```
 
